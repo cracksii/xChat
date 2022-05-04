@@ -41,9 +41,10 @@ class MessageInterface(Resource):
 
         msg = message_db.get(id=messageID)
         msg.deleted = True
+        msg.content = "This message was deleted"
         message_db.update(msg)
 
-        return
+        return message_db.get(id=messageID).get_dict()
 
 
 class Message(JSON):        # Server-side representation of a message

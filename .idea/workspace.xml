@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ded60cdd-d6fb-4be3-96f6-0a12c8e27d67" name="Changes" comment="First commit" />
+    <list default="true" id="ded60cdd-d6fb-4be3-96f6-0a12c8e27d67" name="Changes" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/web/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/web/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/web/js/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/web/js/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/databases/messages.db" beforeDir="false" afterPath="$PROJECT_DIR$/server/databases/messages.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/message.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,9 +115,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.xchat" />
       <item itemvalue="Python.client" />
       <item itemvalue="Python.database" />
-      <item itemvalue="Python.xchat" />
     </list>
     <recent_temporary>
       <list>
@@ -138,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651684059070</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First commit">
+      <created>1651684134386</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651684134386</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,7 +164,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

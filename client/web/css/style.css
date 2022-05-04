@@ -4,7 +4,6 @@
 }
 
 html, body, main {
-    height: 100%; 
     width: 100%;
     margin: 0;
     padding: 0;
@@ -37,7 +36,7 @@ hr {
     margin: 0;
     background-color: #ebebeb;
     width: 90%;
-    height: 9%;
+    height: 9vh;
     overflow: hidden;
 }
 
@@ -68,7 +67,9 @@ hr {
     margin-bottom: 1%;
 }
 
-
+.messages{
+    margin-top: 8.5vh;
+}
 
 .message {
     background-color: #ebebeb;
@@ -106,6 +107,7 @@ hr {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    justify-content: center;
 
     position: fixed;
     left: 0;
@@ -119,14 +121,52 @@ hr {
 .input {
     resize: none;
     width: 72.5%; 
-    height: 30px;
     font-size: 150%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
 }
 
 .control img {
     width: 15%;
+    margin-right: 5%;
 }
 
-.message:last-child {
-    padding-bottom: 20%;
+
+.groupInfo {
+    position: fixed;
+    top: 0;
+    height: 8vh;
+    width: 100%;
+    background-color: violet;
+}
+
+.groupInfoFlex {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.groupImage {
+    border-radius: 50%;
+    height: 70%;
+    border: 1.5px solid black;
+    margin-right: 2vw;
+    margin-left: 5vw;
+}
+
+.groupInfo p {
+    font-size: 150%;
+}
+
+img {
+    height: 100%;
+}
+
+
+.messageWrapper hr {
+    height: 0.1vh;
+    margin-bottom: 0.25vh;
 }

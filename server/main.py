@@ -40,6 +40,7 @@ api.add_resource(GroupManageInterface, "/group/<int:groupID>/<int:userID>")
 @app.after_request
 def apply_caching(response):
     response.headers["Access-Control-Allow-Origin"] = "*"
+    response.headers["Access-Control-Allow-Methods"] = "*"
     response.headers["Access-Control-Allow-Headers"] = "Authorization, Token"
     return response
 
